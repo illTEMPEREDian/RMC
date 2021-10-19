@@ -1,0 +1,28 @@
+/** Large Screen Media Query **/
+@media only screen and (min-width: 1200px) {
+    /** Enter Query Changes Here **/
+    .large-3 {
+        width: 25%;
+    }
+
+    .large-4 {
+        width: 33.33%;
+    }
+
+    header img {
+        height: 150px;
+    }
+
+    nav ul {
+    
+    }
+nav li {
+    margin: auto;
+}
+
+nav a {
+    padding: .7rem 1 rem;
+}
+}
+
+/** End Media Query **/
