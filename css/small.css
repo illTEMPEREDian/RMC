@@ -219,6 +219,11 @@ footer ul li {
     list-style: none;
 }
 
+.copyright {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 
 
 /** end footer rules **/
