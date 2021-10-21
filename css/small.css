@@ -204,6 +204,7 @@ footer {
     background-color: rgb(81, 44, 38);
     font-size: 1.2rem;
     color: rgb(157, 214, 231);
+    text-align: center;
 }
 
 
@@ -213,6 +214,12 @@ footer h2 {
     text-transform: uppercase;
     margin: 1rem 0 .3rem 0;
 }
+
+footer ul li {
+    list-style: none;
+}
+
+
 
 /** end footer rules **/
 
