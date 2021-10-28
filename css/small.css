@@ -169,6 +169,12 @@ main h1 {
     font-size: 2rem;
 }
 
+.saleimg {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 .labeled h6,
 .labeled p {
     background-color: rgba(255, 255, 255, 0.5);
@@ -225,7 +231,9 @@ footer ul li {
 }
 
 .crLink a {
+text-transform: uppercase;
     text-decoration: none;
+    color: rgb(157, 214, 231);
 }
 
 
