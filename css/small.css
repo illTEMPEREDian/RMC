@@ -37,11 +37,11 @@ body {
     margin: 0 0 .75rem 0;
 }
 
-.small-12 {
+.sm12 {
     width: 100%;
 }
 
-.small-6 {
+.sm6 {
     width: 50%;
 }
 
@@ -220,8 +220,12 @@ footer ul li {
 }
 
 .copyright {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
+}
+
+.crLink a {
+    text-decoration: none;
 }
 
 
