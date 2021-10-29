@@ -169,19 +169,15 @@ main h1 {
     font-size: 2rem;
 }
 
-.saleimg {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
-}
+
 
 .labeled h6,
 .labeled p {
-    background-color: rgba(255, 255, 255, 0.5);
     margin: 0;
     width: 100%;
-    padding: .3rem 1rem;
+    padding: .3rem 0rem;
     position: absolute;
+    color: rgb(157, 214, 231);
 }
 
 .labeled h6 {
@@ -191,8 +187,9 @@ main h1 {
 }
 
 .labeled p {
+    font-size: 1.5vw;
     font-weight: 700;
-    color: #b00;
+    color: rgb(157, 214, 231);
     bottom: 0;
 }
 
@@ -200,6 +197,10 @@ main h1 {
     position: relative;
 }
 
+.saleimg {
+    max-width: 100%;
+
+}
 /**end main rules**/
 
 

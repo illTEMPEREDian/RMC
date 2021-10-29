@@ -1,3 +1,4 @@
+// Hamburger
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
 }
@@ -7,7 +8,11 @@ x.onclick = toggleMenu;
 
 
 
-/* Active Copyright */
-var date = new Date().getFullYear();
+// Active Copyright 
+let date = new Date().getFullYear();
 
 document.getElementById("year").innerHTML = date;
+
+// Inventory
+
+
