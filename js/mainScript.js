@@ -16,3 +16,4 @@ document.getElementById("year").innerHTML = date;
 // Inventory
 
 
+
