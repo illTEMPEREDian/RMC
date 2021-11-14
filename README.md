@@ -1,4 +1,4 @@
 # RMC
-River City Mopeds
+River City Moped
 Fictional site.
 This is for learning purposes 
