@@ -413,6 +413,7 @@ textarea {
 textarea::placeholder {
   color: black;
   opacity: 0.5;
+  font-weight: normal;
 }
 
 textarea:focus {
