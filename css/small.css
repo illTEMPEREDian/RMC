@@ -162,9 +162,18 @@ nav a {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  background-image: linear-gradient(
+    rgba(157, 214, 231, 0.5),
+    rgba(157, 214, 231, 0.5)
+  );
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.2s, color 0.2s;
 }
 
 nav a:hover {
+  background-size: 100% 100%;
   background-color: rgba(157, 214, 231, 0.5);
   color: black;
 }
@@ -392,13 +401,14 @@ textarea {
   border: 1.8px solid rgba(107, 107, 107, 0.5);
   margin: 10px 0;
 }
+
 textarea::placeholder {
   color: black;
   opacity: 0.5;
 }
 
 textarea:focus {
-    border: 1.8px solid #6b6b6b;
+  border: 1.8px solid #6b6b6b;
   outline: none;
 }
 
@@ -408,9 +418,27 @@ label {
   line-height: 2.5rem;
 }
 
-.subBtn {
+.sub-btn {
   padding: 5px;
   margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1.5px solid #6b6b6b;
+  color: #fff;
+  background-color: rgb(14, 71, 91);
+  background-image: linear-gradient(
+    rgba(157, 214, 231, 0.5),
+    rgba(157, 214, 231, 0.5)
+  );
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.2s, color 0.2s;
+}
+.sub-btn:hover {
+  background-size: 100% 100%;
+  opacity: 0.85;
+  color: #000;
 }
 
 /** CLEAR FIX **/
