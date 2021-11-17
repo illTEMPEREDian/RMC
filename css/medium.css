@@ -1,42 +1,38 @@
 /** Medium Screen Media Query **/
 @media only screen and (min-width: 768px) {
-    /** Enter Query Changes Here **/
+  /** Enter Query Changes Here **/
 
-    header h1 {
-        font-size: 2.85rem;
-        padding-top: 25px;
-    }
-    header h2 {
-        font-size: 1.5rem;
-    }
-    header img {
-        height: 120px;
-    }
+  header h1 {
+    font-size: 2.85rem;
+    padding-top: 25px;
+  }
+  header h2 {
+    font-size: 1.5rem;
+  }
+  header img {
+    height: 120px;
+  }
 
-    .med6 {
-        width: 50%;
-    }
+  .med6 {
+    width: 50%;
+  }
 
-    .med4 {
-        width: 33.33%;
-    }
+  .med4 {
+    width: 33.33%;
+  }
 
-    nav button {
-        
-        display: none;
-    }
-    nav ul {
-        display: flex;
-        justify-items: center;
-    }
-    nav li {
-     margin: auto;
-        float: left;
-        width: 25%;
-    }
-
-
-
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    justify-items: center;
+  }
+  nav li {
+    margin: auto;
+    float: left;
+    width: 25%;
+  }
 }
 
 /** End Media Query **/
