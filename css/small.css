@@ -123,12 +123,20 @@ button#hamburgerBtn {
   cursor: pointer;
   width: 100%;
   margin: auto;
+    background-image: linear-gradient(
+    rgba(157, 214, 231, 0.5),
+    rgba(157, 214, 231, 0.5)
+  );
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.2s, color 0.2s;
 }
 
 button#hamburgerBtn:hover {
   color: black;
   background-color: rgba(157, 214, 231, 0.5);
-
+background-size: 100% 100%;
   opacity: 75%;
 }
 
