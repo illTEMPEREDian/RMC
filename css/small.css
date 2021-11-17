@@ -130,7 +130,7 @@ button#hamburgerBtn {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: background-size 0.2s, color 0.2s;
+  transition: background-size 0.1s, color 0.1s;
 }
 
 button#hamburgerBtn:hover {
@@ -177,7 +177,7 @@ nav a {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: background-size 0.2s, color 0.2s;
+  transition: background-size 0.1s, color 0.1s;
 }
 
 nav a:hover {
@@ -441,7 +441,7 @@ label {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: background-size 0.2s, color 0.2s;
+  transition: background-size 0.1s, color 0.1s;
 }
 .sub-btn:hover {
   background-size: 100% 100%;
