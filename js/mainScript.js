@@ -13,7 +13,9 @@ let date = new Date().getFullYear();
 
 document.getElementById("year").innerHTML = date;
 
-// Inventory
-
+// Thank You Message
+function thankYouMessage() {
+    alert("Message Received. Thank You!");
+}
 
 

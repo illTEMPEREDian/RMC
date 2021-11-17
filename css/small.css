@@ -11,21 +11,32 @@ html {
   box-sizing: border-box;
 }
 
-
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-    -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -33,7 +44,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -175,7 +185,8 @@ main h1 {
   font-size: 2rem;
 }
 
-.labeled h6, .labeled p {
+.labeled h6,
+.labeled p {
   margin: 0;
   width: 100%;
   padding: 0.3rem 0rem;
@@ -192,10 +203,10 @@ main h1 {
 .labeled p {
   font-size: 2rem;
   font-weight: 700;
-color: rgba(37, 26, 20, 0.85);
+  color: rgba(37, 26, 20, 0.85);
   text-transform: uppercase;
   text-align: right;
-  padding-right: 10%;  
+  padding-right: 10%;
   bottom: 0;
 }
 
@@ -226,7 +237,7 @@ footer h2 {
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
 footer ul li {
@@ -247,24 +258,20 @@ footer ul li {
 }
 
 .social ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .social ul li a {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    background-size: 23px 23px;
-    background-position: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-size: 23px 23px;
+  background-position: center;
 
-/** end footer rules **/
+  /** end footer rules **/
 
-/** ADDITIONAL STYLES **/
-
+  /** ADDITIONAL STYLES **/
 }
-
-
-
 
 .accLeft {
   padding: 0 30px;
@@ -272,7 +279,7 @@ footer ul li {
   width: 100%;
   height: 1px;
   margin: 30px 0;
-  background: linear-gradient(to left,rgb(14, 71, 91) 0,#022d3a00 100%);
+  background: linear-gradient(to left, rgb(14, 71, 91) 0, #022d3a00 100%);
 }
 
 .accRight {
@@ -281,7 +288,7 @@ footer ul li {
   width: 100%;
   height: 1px;
   margin: 30px 0;
-  background: linear-gradient(to right,rgb(14, 71, 91) 0,#022d3a00 100%);
+  background: linear-gradient(to right, rgb(14, 71, 91) 0, #022d3a00 100%);
 }
 
 .accCenter {
@@ -290,10 +297,8 @@ footer ul li {
   width: 100%;
   height: 1px;
   margin: 30px 0;
-background-color: rgb(14, 71, 91);
+  background-color: rgb(14, 71, 91);
 }
-
-
 
 .italic {
   font-style: italic;
@@ -304,14 +309,10 @@ background-color: rgb(14, 71, 91);
   font-weight: 800;
 }
 
-
-
 .contactForm {
   display: inline-block;
- border-radius: 10px;
+  border-radius: 10px;
 }
-
-
 
 .inputField {
   position: relative;
@@ -322,7 +323,7 @@ background-color: rgb(14, 71, 91);
   padding: 8px 20px;
   padding-top: 18px;
   border: 1.8px solid rgba(107, 107, 107, 0.4);
-  border-radius: 3px;
+  border-radius: 5px;
   width: 50%;
   color: black;
 }
@@ -334,7 +335,7 @@ background-color: rgb(14, 71, 91);
 
 .inputField span {
   pointer-events: none;
-  opacity: .5;
+  opacity: 0.5;
   position: absolute;
   padding-left: 20px;
   left: 0;
@@ -344,8 +345,8 @@ background-color: rgb(14, 71, 91);
   cursor: text;
 }
 
-.inputField input:focus+span,
-.inputField input:not(:placeholder-shown)+span {
+.inputField input:focus + span,
+.inputField input:not(:placeholder-shown) + span {
   top: 7px;
   -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
   transform: scale(0.7) translateY(-10%) translateX(-8.5px);
@@ -363,10 +364,7 @@ background-color: rgb(14, 71, 91);
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-
-
 table {
-  
 }
 
 th {
@@ -376,30 +374,33 @@ th {
 }
 
 td {
-  padding: 5px  10px 0 10px;
+  padding: 5px 10px 0 10px;
   text-align: center;
 }
 
-
-
-  input {
+input {
   display: block;
   border-radius: 5px;
 }
 
-
-
 textarea {
-display: block;
-font-weight: 100;
-line-height: 1.5rem;
-padding: 10px;
- border-radius: 5px;
- border: 1.8px solid rgba(107, 107, 107, 0.5);
- margin: 10px 0;
+  display: block;
+  font-weight: 100;
+  line-height: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.8px solid rgba(107, 107, 107, 0.5);
+  margin: 10px 0;
+}
+textarea::placeholder {
+  color: black;
+  opacity: 0.5;
 }
 
-
+textarea:focus {
+    border: 1.8px solid #6b6b6b;
+  outline: none;
+}
 
 label {
   color: rgb(14, 71, 91);
@@ -407,14 +408,10 @@ label {
   line-height: 2.5rem;
 }
 
-
 .subBtn {
   padding: 5px;
   margin-top: 10px;
 }
-
-
-
 
 /** CLEAR FIX **/
 .clearfix:after {

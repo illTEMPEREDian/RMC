@@ -96,38 +96,22 @@
                     <h1>Contact Us</h1>
                     <span class="accRight">
                     </span>
-                    <div class="contactForm">
-                        <form action="">
-
+                    <div class="contactForm" onsubmit="thankYouMessage()">
+                        <form>
                             <div class="inputField">
-                                <input type="text" placeholder=" " />
-                                <span>First Name</span>
+                                <input type="text" placeholder=" " required/>
+                                <span>Name</span>
                             </div>
-
                             <div class="inputField">
-                                <input type="text" placeholder=" " />
-                                <span>Last Name</span>
-                            </div>
-
-                            <div class="inputField">
-                                <input type="email" placeholder=" " />
+                                <input type="email" placeholder=" " required/>
                                 <span>Email</span>
                             </div>
-
                             <div class="">
                                 <textarea name="" id="message" cols="30" rows="10"
                                     placeholder="Your Message"></textarea>
-
                             </div>
-
-
-
-
-
                             <label for="weekly-emails">Recieve monthly emails?</label>
                             <input type="checkbox" name="weekly-emails" id="emailCheck">
-
-
                             <button class="subBtn">Submit</button>
                         </form>
                     </div>
