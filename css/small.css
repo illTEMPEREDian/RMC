@@ -381,9 +381,6 @@ footer ul li {
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-table {
-}
-
 th {
   font-size: 2rem;
   padding-bottom: 25px;
